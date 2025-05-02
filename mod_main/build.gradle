@@ -70,7 +70,7 @@ dependencies {
     kapt rootProject.depsLibs.arouterCompiler
 
     compileOnly rootProject.depsLibs.tbssdk
-    compileOnly rootProject.depsLibs.rxPermission
+//    compileOnly rootProject.depsLibs.rxPermission
     compileOnly rootProject.depsLibs.rxjava
     compileOnly rootProject.depsLibs.rxandroid
 
@@ -84,4 +84,6 @@ dependencies {
 
     // AOP 切面编程
     implementation 'org.aspectj:aspectjrt:1.9.5'
+    compileOnly project(path: ':lib_rxpermission')
+
 }

@@ -125,7 +125,7 @@ dependencies {
 
 //    implementation rootProject.depsLibs.cameraX
 
-    implementation rootProject.depsLibs.rxPermission
+//    implementation rootProject.depsLibs.rxPermission
     implementation rootProject.depsLibs.rxjava
     implementation rootProject.depsLibs.rxandroid
 
@@ -142,4 +142,6 @@ dependencies {
     implementation project(path: ':lib_banner')
     implementation project(path: ':lib_glide')
     implementation project(path: ':lib_room')
+    implementation project(path: ':lib_rxpermission')
+
 }
